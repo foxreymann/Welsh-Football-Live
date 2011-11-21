@@ -1,9 +1,8 @@
 function onBodyLoad() {
     $.ajax({
-        url: 'http://www.pita.it/soccer/resultScores-wales.xml', // name of file you want to parse
-url: 'resultScores-wales.xml', // name of file you want to parse
-        dataType: "xml", // type of file you are trying to read
-        success: parse, // name of the function to call upon success
+        url: config.url,
+        dataType: "xml",
+        success: parse,
         error: function(){alert("Error: Something went wrong");},
     });
 }
@@ -25,7 +24,7 @@ function showGame(url,title) {
     $('#gameInfo').html('<img src="loading.gif" id="loading" />'); 
     $.ajax({
         url: url,
-url: 'LlanelliBalaTown2.html',
+url: 'LlanelliBalaTown.html',
         dataType: "html",
         success: parse2,
         error: function(){alert("Error: Something went wrong");},
