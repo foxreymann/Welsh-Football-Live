@@ -12,6 +12,7 @@
 <body onload="onBodyLoad()">
     <div data-role="page" id="one">
         <div data-role="header">
+            <img src="flag.gif" id="flag" />
             <h1>Welsh Football Live</h1>
         </div>
 
@@ -21,12 +22,11 @@
 
     <div data-role="page" id="two">
         <div data-role="header">
+            <a href="#one" data-icon="home" data-direction="reverse" class="ui-btn-left jqm-home">Homescreen</a>
             <h1>Match title</h1>
-            <a href="#one" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-left jqm-home">Home</a>
         </div>
-        <div id="gameInfo">
-            
-        </div>
+        <div id="gameInfo"></div>
     </div>
+
 </body>
 </html>

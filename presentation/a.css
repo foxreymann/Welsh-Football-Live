@@ -1,0 +1,16 @@
+article {
+    display:none;
+    text-align:center;
+}
+#notes{
+    position:fixed;
+    bottom:20px;
+    display:none;
+}
+#prev, #next{
+    position:fixed;
+    bottom:0;
+}
+#next{
+    left:50px;
+}

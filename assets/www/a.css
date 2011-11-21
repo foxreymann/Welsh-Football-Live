@@ -1,0 +1,32 @@
+.ui-header h1.ui-title {
+    margin-left:0;
+    margin-right:0;
+    font-size:24px;
+}
+#loading {
+    margin: 10px auto 0;
+}
+span.ui-icon-home {
+    height:36px;
+    width:36px;
+    background-image: url(icons-36-white.png);
+    background-position: -1149px 50%;
+}
+a.ui-btn-icon-notext{ 
+width: 48px;
+height: 48px;
+}
+.ui-page .ui-header{
+    height:102px;
+}
+.ui-btn-icon-notext span.ui-btn-inner {
+padding: 5px 2px 4px 6px;
+}
+#two h1{
+    margin-top:62px;
+}
+#flag {
+height: 40px;
+display: block;
+margin: 5px auto;
+}
