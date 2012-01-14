@@ -6,12 +6,6 @@
 #loading {
     margin: 10px auto 0;
 }
-span.ui-icon-home {
-    height:36px;
-    width:36px;
-    background-image: url(icons-36-white.png);
-    background-position: -1149px 50%;
-}
 a.ui-btn-icon-notext{ 
 width: 48px;
 height: 48px;

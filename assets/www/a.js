@@ -24,7 +24,6 @@ function showGame(url,title) {
     $('#gameInfo').html('<img src="loading.gif" id="loading" />'); 
     $.ajax({
         url: url,
-url: 'LlanelliBalaTown.html',
         dataType: "html",
         success: parse2,
         error: function(){alert("Error: Something went wrong");},
@@ -34,7 +33,9 @@ url: 'LlanelliBalaTown.html',
 function parse2(document){
     for(x in $(document)) {
         if(($(document)[x]).id === 'matchInfos') {
-            $('#gameInfo').html($(document)[x]);    
+            $('#gameInfo').html($(document)[x]);
+            return;
         };
     };
+    $('#gameInfo').html('No updates');
 }
